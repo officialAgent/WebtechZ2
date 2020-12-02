@@ -1,0 +1,173 @@
+html {
+    background-color: #3f0d12;
+    background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+
+
+}
+
+header {
+
+    background-image: url(header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 3vw;
+    top: 50%;
+    left: 10%;
+    color: #fff;
+    font-size: 340%;
+}
+
+#main {
+
+    height: 100%;
+    color: #ffffff;
+}
+
+footer {
+    color: #fff;
+    height: 100%;
+    text-align: center;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: static;
+}
+
+#mainpic {
+    width: 100%;
+    display: block;
+
+
+}
+
+#mainpart {
+    padding: 3% 12% 3% 12%;
+    position: relative;
+    display: inline-block;
+    width: auto;
+}
+
+p.info {
+    position: absolute;
+    visibility: hidden;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+    display: block;
+    text-align: center;
+    width: 350px;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px firebrick;
+    padding: 5px;
+    z-index: 1;
+
+}
+
+div.narobi {
+    position: absolute;
+
+    top: -517%;
+    left: 5%;
+
+
+}
+
+.narobi:hover .info {
+    visibility: visible;
+    position: relative;
+}
+
+ion-icon {
+    font-size: 2vw;
+    color: ghostwhite;
+
+
+}
+
+div.monica {
+    position: absolute;
+
+    top: -507%;
+    left: 58%;
+
+
+}
+
+.monica:hover .info {
+    visibility: visible;
+    position: relative;
+}
+
+
+div.denver {
+    position: absolute;
+
+    top: -471%;
+    left: 145%;
+
+
+}
+
+.denver:hover .info {
+    visibility: visible;
+    position: relative;
+}
+
+div.profesor {
+    position: absolute;
+
+    top: -459%;
+    left: 217%;
+
+
+}
+
+.profesor:hover .info {
+    visibility: visible;
+    position: relative;
+}
+
+div.tokio {
+    position: absolute;
+    width: 60px;
+
+    top: -555%;
+    left: 384%;
+
+
+}
+
+.tokio:hover .info {
+    visibility: visible;
+    position: relative;
+    right: 350px;
+
+}
+
+div.sources {
+    text-align: center;
+    position: relative;
+
+
+}
+
+.sources:hover .info2 {
+    visibility: visible;
+    display: block;
+
+
+}
+
+p.info2 {
+
+    visibility: hidden;
+    display: none;
+    font-size: 20px;
+
+}
